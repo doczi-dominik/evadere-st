@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "JetBrainsMono Nerd Font Mono:size=11";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -91,7 +91,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
 float alpha = 0.8;
@@ -143,7 +143,7 @@ static unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
