@@ -1,2 +1,2 @@
-# letizia-st
-The terminal used for `dotfiles-letizia`
+# evadere-st
+The terminal used for `dotfiles-evadere`
